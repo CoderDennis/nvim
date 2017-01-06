@@ -17,7 +17,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-map <Leader>/ :noh<CR>
+map <Leader>h :noh<CR>
 
 " highlight cursor postition
 " set cursorline
