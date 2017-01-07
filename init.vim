@@ -79,8 +79,8 @@ Plug 'neomake/neomake'
 Plug 'slashmili/alchemist.vim'
 
 Plug 'terryma/vim-expand-region'
-	vmap v <Plug>(expand_region_expand)
-	vmap <C-v> <Plug>(expand_region_shrink)
+  vmap v <Plug>(expand_region_expand)
+  vmap <C-v> <Plug>(expand_region_shrink)
 
 
 call plug#end()
@@ -123,4 +123,6 @@ map q: :q
 
 imap jj <Esc>
 
+nmap <Leader>n :bn<CR>
+nmap <Leader>p :bp<CR>
 
