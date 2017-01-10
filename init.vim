@@ -17,7 +17,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-map <Leader>h :noh<CR>
+nnoremap <Leader>h :noh<CR>
 
 " highlight cursor postition
 " set cursorline
@@ -95,8 +95,6 @@ colorscheme molokai
 " Use space for leader
 let mapleader = "\<Space>"
 
-nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :q<CR>
 
 vmap <Leader>y "+y
 vmap <Leader>d "+d
@@ -121,8 +119,16 @@ nnoremap <BS> gg
 
 map q: :q
 
+" from Patrick
 imap jj <Esc>
 
+" my own additions:
+nnoremap <Leader>W :w<CR>
+nnoremap <Leader>q :q<CR>
+
 nmap <Leader>n :bn<CR>
-nmap <Leader>p :bp<CR>
+" nmap <Leader>b :bp<CR>
+
+nmap <Leader>o <C-o>
+nmap <Leader><CR> i<CR><Esc>
 
