@@ -10,6 +10,7 @@ set shiftwidth=2
 set mouse=""
 
 set number " line numbering
+set relativenumber 
 set encoding=utf-8
 
 " Highlight search results
