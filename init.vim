@@ -2,16 +2,17 @@
 " - Two spaces wide
 set tabstop=2
 set softtabstop=2
-" - Expand them all
-set expandtab
-" - Indent by 2 spaces by default
-set shiftwidth=2
+set expandtab           " Expand them all
+set shiftwidth=2        " Indent by 2 spaces by default
 
 set mouse=""
 
-set number " line numbering
-set relativenumber 
+set number              " line numbering
+set relativenumber      " Relative numbering
 set encoding=utf-8
+set noswapfile          " No swap file
+set nobackup            " No backup
+set nowb                " No write-backup
 
 " Highlight search results
 set hlsearch
@@ -21,7 +22,7 @@ set smartcase
 nnoremap <Leader>h :noh<CR>
 
 " highlight cursor postition
-" set cursorline
+set cursorline
 " set cursorcolumn
 
 " set title of terminal
