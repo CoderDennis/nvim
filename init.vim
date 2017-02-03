@@ -128,7 +128,10 @@ nnoremap <Leader>q :q<CR>
 
 nmap <Leader>n :bn<CR>
 " nmap <Leader>b :bp<CR>
+nmap <Leader>d :bd<CR>
 
 nmap <Leader>o <C-o>
 nmap <Leader><CR> i<CR><Esc>
+
+nmap <Leader>t :!elm-test<CR>
 
