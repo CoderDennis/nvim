@@ -28,8 +28,8 @@ set cursorline
 " set title of terminal
 set title
 
-source .\plug.vim
+source $HOME/AppData/Local/nvim/plug.vim
 
-source .\keys.vim
+source $HOME/AppData/Local/nvim/keys.vim
 
 nmap <Leader>t :!elm-test<CR>
