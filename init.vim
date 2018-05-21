@@ -28,6 +28,9 @@ set cursorline
 " set title of terminal
 set title
 
+let g:python3_host_prog = '/Python36/python.exe'
+let g:python_host_prog = '/Python27/python.exe'
+
 source $HOME/AppData/Local/nvim/plug.vim
 
 source $HOME/AppData/Local/nvim/keys.vim
