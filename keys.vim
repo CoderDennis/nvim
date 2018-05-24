@@ -1,10 +1,9 @@
-" copy this file into $Home/.vsvimrc
-"
-" https://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/
+" from https://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/
 
 " Use space for leader
 let mapleader = "\<Space>"
 
+" System clipboard
 vmap <Leader>y "+y
 vmap <Leader>d "+d
 nmap <Leader>p "+p
@@ -12,6 +11,7 @@ nmap <Leader>P "+P
 vmap <Leader>p "+p
 vmap <Leader>P "+P
 
+" quickly select current line
 nmap <Leader><Leader> V
 
 " Make a simple "search" text object.
@@ -26,20 +26,32 @@ omap s :normal vs<CR>
 nnoremap <CR> G
 nnoremap <BS> gg
 
+" avoids getting stuck in that weird macro thing
 map q: :q
 
 " from Patrick
 imap jj <Esc>
 
-" my own additions:
+" *** my own additions ***
 nnoremap <Leader>W :w<CR>
 nnoremap <Leader>q :q<CR>
 
+" cycle buffers (open files)
 nmap <Leader>n :bn<CR>
-" nmap <Leader>b :bp<CR>
+" close current buffer (file)
 nmap <Leader>d :bd<CR>
 
+" jump list
 nmap <Leader>o <C-o>
+nmap <Leader>i <C-i>
+
+" quickly insert a line break
 nmap <Leader><CR> i<CR><Esc>
 
+" multiple windows:
+" cycle windows after :split or :vsplit
+nmap <Leader>w <C-w><C-w>
+" make all equal size
+nmap <Leader>= <C-w>=
+" See https://www.cs.oberlin.edu/~kuperman/help/vim/windows.html for more
 
