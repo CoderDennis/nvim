@@ -28,11 +28,17 @@ set cursorline
 " set title of terminal
 set title
 
-let g:python3_host_prog = '/Python36/python.exe'
-let g:python_host_prog = '/Python27/python.exe'
+let g:python3_host_prog = 'C:/Python36/python.exe'
+let g:python_host_prog = 'C:/Python27/python.exe'
 
 source $HOME/AppData/Local/nvim/plug.vim
 
 source $HOME/AppData/Local/nvim/keys.vim
 
 nmap <Leader>t :!elm-test<CR>
+
+set spell
+set spelllang=en_us
+
+" for spellfile.vim fix on Windows see https://github.com/jamessan/neovim/commit/6a967710a073b246244c43f26728b17c9aee6f6d
+" see also https://www.circuidipity.com/neovim/
