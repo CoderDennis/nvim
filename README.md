@@ -1,5 +1,5 @@
 # nvim
-my neovim config (~/AppData/Local/nvim on Windows)
+my neovim config (~/.config/nvim)
 
 I don't remember for sure if [this is the exact blog post](https://www.smoothterminal.com/articles/neovim-for-elixir), 
 but I know it was one from Josh Adams about how he configures neovim for working with Elixir that helped me with initially 
