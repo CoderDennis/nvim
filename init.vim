@@ -28,12 +28,14 @@ set cursorline
 " set title of terminal
 set title
 
-let g:python3_host_prog = 'C:/Python36/python.exe'
-let g:python_host_prog = 'C:/Python27/python.exe'
+let g:python3_host_prog = '/usr/bin/python3'
+let g:python_host_prog = '/usr/bin/python2'
 
-source $HOME/AppData/Local/nvim/plug.vim
 
-source $HOME/AppData/Local/nvim/keys.vim
+
+source ~/.config/nvim/plug.vim
+
+source ~/.config/nvim/keys.vim
 
 nmap <Leader>t :!elm-test<CR>
 

@@ -13,7 +13,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'ElmCast/elm-vim'
   let g:elm_format_autosave = 1
   
-Plug 'tomasr/molokai'
+" Plug 'tomasr/molokai'
 
 " Execute code checks, find mistakes, in the background
 Plug 'neomake/neomake'
@@ -59,4 +59,4 @@ call plug#end()
 " must be done after end of plug section
 set background=dark
 syntax enable
-colorscheme molokai
+" colorscheme molokai
